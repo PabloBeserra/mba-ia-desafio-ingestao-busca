@@ -1,3 +1,17 @@
 .env
+.env.*
+!.env.example
+
+# Common secret files
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Python
 /venv
-__pycache__
+/.venv
+__pycache__/
+*.pyc
